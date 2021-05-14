@@ -11,7 +11,7 @@ public class ControladorDeDesconto {
         descontoLivroAutoAjuda.valorDescontoLivroAutoAjuda();
     }
 
-    public void adicionaDescontoLivroAcao(DescontoLivroAcao descontoLivroAcao){
+    /*public void adicionaDescontoLivroAcao(DescontoLivroAcao descontoLivroAcao){
         descontoLivroAcao.descontoLivroAcao();
-    }
+    }*/
 }

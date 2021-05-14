@@ -11,16 +11,16 @@ public class OrdemDeCompra {
 
     public void removerProduto(Produto produto){produtos.remove(produto);}
 
-    public BigDecimal calcularTotal(){
+    /*public BigDecimal calcularTotal(){
         return produtos.stream()
                 .map(Produto::getValor)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
-    }
+    }*/
 
-    public List<OrderDeCompra> buscarOrdensDeCompra(){
+    /*public List<OrderDeCompra> buscarOrdensDeCompra(){
         //retorna a lista de ordens de compra da base de dados
         return new ArrayList<>();
-    }
+    }*/
 
     public void salvarOrdensCompra(){
         //salva lista de produtos na base de dados
